@@ -1,0 +1,51 @@
+.cable{
+    width: 20px;
+    height: 80px;
+    background: black;
+}
+
+.trafficLight{
+    width: 130px;
+    height: 320px;
+    background: black;
+    border-radius:10%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.light{
+    width: 70px;
+    height: 80px;
+    background: white;
+    margin:20px 0;
+    border-radius:100%;
+}
+
+.redOff{
+    background: darkred;
+}
+
+.orangeOff{
+    background: darkorange;
+}
+
+.greenOff{
+    background: darkgreen;
+}
+
+.redOn{
+    background: red;
+    box-shadow: 0px 0px 20px red;  
+}
+
+.orangeOn{
+    background: orange;
+    box-shadow: 0px 0px 20px orange;  
+}
+
+.greenOn{
+    background: green;
+    box-shadow: 0px 0px 20px green;  
+}
+
